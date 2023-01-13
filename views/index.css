@@ -1,0 +1,57 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: skyblue;
+}
+.header{
+    /* border: 2px solid skyblue; */
+    font-size:30px ;
+    align-items: center;
+    text-align: center;
+}
+#main{
+    display: flex;
+    height: 400px;
+}
+#main #main-img img{
+    height: 300px;
+    width: 300px;
+    margin: 40px 120px;  
+    padding: 10px 120px;
+}
+#main #main-info{
+    margin: 2px 10px;
+    padding: 2px 100px;
+    position: absolute;
+    right: 10%;
+    font-size: 20px;
+}
+#main #main-info .stats{
+    display: flex;
+}
+#main #main-info .stats img{
+    height: 30px;
+    width: 30px;
+    margin: 19px 5px;
+    padding: 2px 5px;
+}
+.second-container{
+    display: flex;
+}
+.days{
+    height: 160px;
+    width: 200px;
+    margin: 10px 10px;
+    padding: 10px 50px;
+    text-align: center ;
+}
+.days .day1,.day2,.day3,.day4,.day5,.day6,.day7{
+    position: absolute;
+}
+.days h4{
+    margin: 20px 19px;
+}
+.days img{
+    height: 100px;
+    width: 100px;
+}
